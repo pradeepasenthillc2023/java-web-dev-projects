@@ -1,10 +1,10 @@
 
-    package org.launchcode;
+package org.launchcode;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
-    public class ArrayListPratice {
+    public class ArrayListPractice {
         public static void main(String[] args) {
             String str = "I would not, could not, in a box. I would not, could not with a fox. I will not eat them in a house. I will not eat them with a mouse.";
             ArrayList<String> wordList = new ArrayList<>(Arrays.asList(str.split(" ")));
